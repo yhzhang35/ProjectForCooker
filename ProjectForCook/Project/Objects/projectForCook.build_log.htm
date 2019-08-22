@@ -1,0 +1,281 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ð¡º£ ´óº£, º£´ï, LIC=HF82Z-JPPKW-LVH1I-TJ10D-ELB2Q-28C0E
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.15.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DCM.DLL V1.13.2.0
+Target DLL:      CMSIS_AGDI.dll V1.21.12.0
+Dialog DLL:      TCM.DLL V1.14.5.0
+ 
+<h2>Project:</h2>
+F:\ProjectForCook\Project\projectForCook.uvprojx
+Project File Date:  08/07/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling led.c...
+..\USER\led.h(10): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();
+..\USER\led.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\led.c: 2 warnings, 0 errors
+compiling main.c...
+..\USER\led.h(10): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();
+..\USER\led.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\pwm.h(8): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\motor.h(50): warning:  #1295-D: Deprecated declaration delay - give arg types
+  void delay();
+..\USER\motor.h(58): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\encoder.h(10): warning:  #1295-D: Deprecated declaration Encode_Encoder_Init - give arg types
+  void Encode_Encoder_Init(); //PA0(TIM2 CH1),PA1(TIM2 CH2)
+..\USER\encoder.h(11): warning:  #1295-D: Deprecated declaration Read_Encoder1 - give arg types
+  short Read_Encoder1();
+..\USER\encoder.h(12): warning:  #1295-D: Deprecated declaration Read_Encoder2 - give arg types
+  short Read_Encoder2();
+..\USER\encoder.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\bluetooth.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\spi_fat_flash.h(105): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\system.h(10): warning:  #1295-D: Deprecated declaration execute - give arg types
+        void execute();
+..\USER\system.h(13): warning:  #1295-D: Deprecated declaration init_System - give arg types
+  void init_System();
+..\USER\system.h(16): warning:  #1295-D: Deprecated declaration timers_init - give arg types
+  void timers_init();
+..\USER\system.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\can.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\cooker.h(12): warning:  #1295-D: Deprecated declaration MAX6675_init - give arg types
+  void MAX6675_init();
+..\USER\cooker.h(14): warning:  #1295-D: Deprecated declaration Get_temperature - give arg types
+  unsigned int Get_temperature();
+..\USER\cooker.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif __COOKER_H_
+..\USER\cooker.h(16): warning:  #14-D: extra text after expected end of preprocessing directive
+  #endif __COOKER_H_
+..\USER\jiDianQi.h(24): warning:  #1295-D: Deprecated declaration jiDianQi_Init - give arg types
+  void jiDianQi_Init();
+..\USER\jiDianQi.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\main.c(16): warning:  #1295-D: Deprecated declaration file_System_Init - give arg types
+  void file_System_Init();
+..\USER\main.c(17): warning:  #1295-D: Deprecated declaration anolyses_Commend - give arg types
+  void anolyses_Commend();
+..\USER\main.c(46): warning:  #177-D: variable "res" was declared but never referenced
+        unsigned char res;
+..\USER\main.c(47): warning:  #177-D: variable "tbuf" was declared but never referenced
+        unsigned char tbuf[8],char_buf[8];
+..\USER\main.c(47): warning:  #177-D: variable "char_buf" was declared but never referenced
+        unsigned char tbuf[8],char_buf[8];
+..\USER\main.c(48): warning:  #177-D: variable "rbuf" was declared but never referenced
+        unsigned char rbuf[8];
+..\USER\main.c(49): warning:  #177-D: variable "j" was declared but never referenced
+        unsigned char j=0;
+..\USER\main.c(52): warning:  #177-D: variable "temper" was declared but never referenced
+        unsigned char temper=0;
+..\USER\main.c(265): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const TCHAR *"
+                        f_puts(dat,&fnew);
+..\USER\main.c: 31 warnings, 0 errors
+compiling motor.c...
+..\USER\motor.h(50): warning:  #1295-D: Deprecated declaration delay - give arg types
+  void delay();
+..\USER\motor.h(58): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\system.h(10): warning:  #1295-D: Deprecated declaration execute - give arg types
+        void execute();
+..\USER\system.h(13): warning:  #1295-D: Deprecated declaration init_System - give arg types
+  void init_System();
+..\USER\system.h(16): warning:  #1295-D: Deprecated declaration timers_init - give arg types
+  void timers_init();
+..\USER\system.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\bluetooth.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\led.h(10): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();
+..\USER\led.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\encoder.h(10): warning:  #1295-D: Deprecated declaration Encode_Encoder_Init - give arg types
+  void Encode_Encoder_Init(); //PA0(TIM2 CH1),PA1(TIM2 CH2)
+..\USER\encoder.h(11): warning:  #1295-D: Deprecated declaration Read_Encoder1 - give arg types
+  short Read_Encoder1();
+..\USER\encoder.h(12): warning:  #1295-D: Deprecated declaration Read_Encoder2 - give arg types
+  short Read_Encoder2();
+..\USER\encoder.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\motor.c: 13 warnings, 0 errors
+compiling pwm.c...
+..\USER\pwm.h(8): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\pwm.c: 1 warning, 0 errors
+compiling encoder.c...
+..\USER\led.h(10): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();
+..\USER\led.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\motor.h(50): warning:  #1295-D: Deprecated declaration delay - give arg types
+  void delay();
+..\USER\motor.h(58): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\encoder.h(10): warning:  #1295-D: Deprecated declaration Encode_Encoder_Init - give arg types
+  void Encode_Encoder_Init(); //PA0(TIM2 CH1),PA1(TIM2 CH2)
+..\USER\encoder.h(11): warning:  #1295-D: Deprecated declaration Read_Encoder1 - give arg types
+  short Read_Encoder1();
+..\USER\encoder.h(12): warning:  #1295-D: Deprecated declaration Read_Encoder2 - give arg types
+  short Read_Encoder2();
+..\USER\encoder.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\bluetooth.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\encoder.c(159): warning:  #177-D: function "delay" was declared but never referenced
+  static void delay(unsigned long i)
+..\USER\encoder.c: 10 warnings, 0 errors
+compiling bluetooth.c...
+..\USER\bluetooth.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\led.h(10): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  void LED_Init();
+..\USER\led.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\bluetooth.c: 3 warnings, 0 errors
+compiling spi_fat_flash.c...
+..\USER\spi_fat_flash.h(105): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\spi_fat_flash.c(138): warning:  #223-D: function "printf" declared implicitly
+       
+LASH_ERROR("SPI_FLASH_PageWrite too large!"); 
+..\USER\spi_fat_flash.c(293): warning:  #177-D: variable "Temp2" was declared but never referenced
+    u32 Temp = 0, Temp0 = 0, Temp1 = 0, Temp2 = 0;
+..\USER\spi_fat_flash.c(528): warning:  #223-D: function "printf" declared implicitly
+    
+LASH_ERROR("SPI ?È´ý³?Ê±!errorCode = %d",errorCode);
+..\USER\spi_fat_flash.c: 4 warnings, 0 errors
+compiling system.c...
+..\USER\system.h(10): warning:  #1295-D: Deprecated declaration execute - give arg types
+        void execute();
+..\USER\system.h(13): warning:  #1295-D: Deprecated declaration init_System - give arg types
+  void init_System();
+..\USER\system.h(16): warning:  #1295-D: Deprecated declaration timers_init - give arg types
+  void timers_init();
+..\USER\system.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\bluetooth.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\cooker.h(12): warning:  #1295-D: Deprecated declaration MAX6675_init - give arg types
+  void MAX6675_init();
+..\USER\cooker.h(14): warning:  #1295-D: Deprecated declaration Get_temperature - give arg types
+  unsigned int Get_temperature();
+..\USER\cooker.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif __COOKER_H_
+..\USER\cooker.h(16): warning:  #14-D: extra text after expected end of preprocessing directive
+  #endif __COOKER_H_
+..\USER\motor.h(50): warning:  #1295-D: Deprecated declaration delay - give arg types
+  void delay();
+..\USER\motor.h(58): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\jiDianQi.h(24): warning:  #1295-D: Deprecated declaration jiDianQi_Init - give arg types
+  void jiDianQi_Init();
+..\USER\jiDianQi.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\system.c: 13 warnings, 0 errors
+compiling can.c...
+..\USER\can.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\can.c: 1 warning, 0 errors
+compiling cooker.c...
+..\USER\cooker.h(12): warning:  #1295-D: Deprecated declaration MAX6675_init - give arg types
+  void MAX6675_init();
+..\USER\cooker.h(14): warning:  #1295-D: Deprecated declaration Get_temperature - give arg types
+  unsigned int Get_temperature();
+..\USER\cooker.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif __COOKER_H_
+..\USER\cooker.h(16): warning:  #14-D: extra text after expected end of preprocessing directive
+  #endif __COOKER_H_
+..\USER\system.h(10): warning:  #1295-D: Deprecated declaration execute - give arg types
+        void execute();
+..\USER\system.h(13): warning:  #1295-D: Deprecated declaration init_System - give arg types
+  void init_System();
+..\USER\system.h(16): warning:  #1295-D: Deprecated declaration timers_init - give arg types
+  void timers_init();
+..\USER\system.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\cooker.c(150): warning:  #223-D: function "printf" declared implicitly
+                                printf("Ô­Ê¼?ý¾??Ç£?%04X,  µ±Ç°?Â¶??Ç£?%4.2f¡£\r\n",i,temprature);
+..\USER\cooker.c(154): warning:  #223-D: function "printf" declared implicitly
+                                printf("Î´?ì²âµ??Èµ?Å¼£¬?ë¼ì²é¡?\r\n");
+..\USER\cooker.c(160): warning:  #223-D: function "printf" declared implicitly
+                        printf("max6675Ã»???ý¾Ý·µ»Ø£??ë¼ì²?max6675Á¬?Ó¡?\r\n");
+..\USER\cooker.c(165): warning:  #1-D: last line of file ends without a newline
+  }
+..\USER\cooker.c: 12 warnings, 0 errors
+compiling jiDianQi.c...
+..\USER\jiDianQi.h(24): warning:  #1295-D: Deprecated declaration jiDianQi_Init - give arg types
+  void jiDianQi_Init();
+..\USER\jiDianQi.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\system.h(10): warning:  #1295-D: Deprecated declaration execute - give arg types
+        void execute();
+..\USER\system.h(13): warning:  #1295-D: Deprecated declaration init_System - give arg types
+  void init_System();
+..\USER\system.h(16): warning:  #1295-D: Deprecated declaration timers_init - give arg types
+  void timers_init();
+..\USER\system.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\jiDianQi.c: 6 warnings, 0 errors
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling diskio.c...
+..\USER\spi_fat_flash.h(105): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\bluetooth.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\FATFS\diskio.c: 2 warnings, 0 errors
+compiling ff.c...
+compiling cc936.c...
+linking...
+Program Size: Code=16356 RO-data=396 RW-data=88 ZI-data=9632  
+FromELF: creating hex file...
+".\Objects\projectForCook.axf" - 0 Error(s), 98 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  F:\ProjectForCook\Project\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
